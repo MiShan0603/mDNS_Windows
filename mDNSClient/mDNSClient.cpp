@@ -19,10 +19,6 @@ HWND g_hWnd = NULL;
 #pragma region mDNS 
 dnssd_t* g_dnssd = nullptr;
 const char regtype[16] = "_myserver._tcp";
-const int port = 10001;
-
-dnssd_record_kv_t* records = NULL;
-int recordsCount = 0;
 
 #pragma endregion mDNS 
 
